@@ -9,8 +9,6 @@ import java.util.Scanner;
                 System.out.print("RAKAM VE SAYIYI GİRİNİZ:");
                 while (scanner.hasNext()) {
                     String a = scanner.next();
-                    String[] b = a.split(",");
-
                     int x = scanner.nextInt();
                     System.out.printf("isim ve rakam :"+"%-5s%03d%n", a, x);
                 }
