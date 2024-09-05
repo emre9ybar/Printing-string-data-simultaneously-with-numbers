@@ -6,7 +6,7 @@ import java.util.Scanner;
             public static void main(String[] args) {
                 Scanner scanner = new Scanner(System.in);
 
-                System.out.print("RAKAM VE SAYIYI GİRİNİZ:");
+                System.out.print("İsim ve Sayıyı Giriniz:");
                 while (scanner.hasNext()) {
                     String a = scanner.next();
                     int x = scanner.nextInt();
